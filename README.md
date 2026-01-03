@@ -123,14 +123,45 @@ A: The shortcut might conflict with another extension. Go to `chrome://extension
 
 ---
 
-## Privacy
+## Privacy Policy
 
-TeXtractor respects your privacy:
+**Effective Date**: January 2025
+
+TeXtractor is committed to protecting your privacy. This policy explains how we handle your data.
+
+### Data Collection
+
+**We do NOT collect:**
+- Personal information (name, email, etc.)
+- Captured images or formulas
+- Usage analytics or tracking data
+- Browsing history
+
+### Data Processing
 
 - All OCR processing happens **locally** in your browser
-- No images or formulas are sent to external servers
-- No personal data is collected or transmitted
-- Conversion history is stored only in your local browser storage
+- Captured images are processed on-device using ONNX Runtime
+- No data is sent to external servers for processing
+
+### Data Storage
+
+- **Conversion history**: Stored locally in Chrome's storage (your device only)
+- **OCR models**: Cached in IndexedDB after initial download from HuggingFace (open-source repository)
+- **Settings**: Stored locally in Chrome's storage
+
+### Third-Party Services
+
+- **Model Download**: On first use, OCR models (~117 MB) are downloaded from [HuggingFace](https://huggingface.co/breezedeus/pix2text-mfr) (one-time only)
+- No other third-party services are used
+
+### Your Control
+
+- Clear all local data anytime via Settings > Data Management
+- Uninstalling the extension removes all stored data
+
+### Contact
+
+For privacy concerns: [Open an Issue](../../issues/new)
 
 ---
 
