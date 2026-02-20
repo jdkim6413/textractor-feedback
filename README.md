@@ -32,7 +32,7 @@ TeXtractor is a powerful Chrome extension that lets you:
 
 ### From Chrome Web Store (Recommended)
 
-1. Visit the [TeXtractor page on Chrome Web Store](#) *(link coming soon)*
+1. Visit the [TeXtractor page on Chrome Web Store](https://chromewebstore.google.com/detail/textractor/kbnpimbbdigajfpdfgnahjfhpoapmhfo?hl=en)
 2. Click **"Add to Chrome"**
 3. Confirm the installation
 
